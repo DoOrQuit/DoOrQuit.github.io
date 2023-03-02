@@ -64,6 +64,11 @@ header .top-nav {
 
 }
 
+.top-nav a:focus  {
+    outline: 1px solid black;
+}
+
+
 
 header .top-nav a {
     
@@ -283,6 +288,11 @@ footer p {
         max-width: 100%;
         column-gap: 0px;
     }
+
+    main .contacts-labels a {
+        outline: 1px solid black;
+    }
+
 }
 @media screen and (min-width: 700px) {
 
